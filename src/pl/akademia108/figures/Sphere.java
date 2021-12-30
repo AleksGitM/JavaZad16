@@ -1,14 +1,14 @@
 package pl.akademia108.figures;
 
 public class Sphere extends Figure{
-    private Double radian;
+    private Double radius;
 
-    public Sphere(Double radian){
-        this.radian = radian;
+    public Sphere(Double radius){
+        this.radius = radius;
     }
 
     public double countArea(){
-        double area = pi * (this.radian * this.radian);
+        double area = pi * (this.radius * this.radius);
         System.out.println("Pole koła wynosi :" + area);
         return area;
     }
